@@ -1,0 +1,50 @@
+
+html, body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.form-style {
+    background-color: rgb(44 51 63);
+    border-radius: .5rem;
+    padding: .75rem;
+}
+
+.yellowButton {
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    background-color: rgb(255 214 10/var(--tw-bg-opacity));
+    border-radius: .375rem;
+    color: rgb(0 8 20/var(--tw-text-opacity));
+    cursor: pointer;
+    font-weight: 600;
+    padding: 8px 20px;
+  }
+  .blackButton {
+    --tw-bg-opacity: 1;
+    background-color: rgb(22 29 41/var(--tw-bg-opacity));
+    border-radius: .375rem;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 8px 20px;
+  }
+
+  .glass2{
+    /* From https://css.glass */
+  background: rgba(13, 18, 30, 0.75);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.3px);
+  -webkit-backdrop-filter: blur(7.3px);
+  border: 1px solid rgba(13, 18, 30, 0.3);
+  }
+  .mobNav {
+    transition: all;
+    transition: 500ms;
+    transform: translatex(100vw);
+  }
+  
+  .mobNav.navshow {
+    transition: all;
+    transition: 500ms;
+    transform: translateX(0vw);
+  }  
